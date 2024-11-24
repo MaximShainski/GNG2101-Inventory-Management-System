@@ -1,8 +1,11 @@
+/* General Styles */
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
+  background-color: #ffffff; /* Always light background */
+  color: #000000; /* Always dark text */
 }
 
 .logo {
@@ -11,13 +14,16 @@
   will-change: filter;
   transition: filter 300ms;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* Logo Spin Animation */
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
@@ -33,10 +39,23 @@
   }
 }
 
+/* Card Styling */
 .card {
   padding: 2em;
 }
 
+/* "Read the Docs" Text */
 .read-the-docs {
   color: #888;
+}
+
+/* Modal Styling */
+.modal-content {
+  background-color: #ffffff; /* Always light background for modal */
+  color: #000000; /* Always dark text color for modal */
+}
+
+/* Close button */
+.close-button {
+  color: #000000; /* Always dark color for close button */
 }
